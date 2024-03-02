@@ -27,5 +27,29 @@ namespace desafios_csharp.Extras
 
             Console.WriteLine($"O estado da água é: {estado}");
         }
+
+        public static void CategoriaIdade() {
+            Console.WriteLine("Digite uma idade para saber qual categoria ela se enquadra: ");
+
+            int idade = int.Parse(Console.ReadLine());
+
+            string categoria = "";
+
+            if (idade == 0 || idade < 5) {
+                categoria = "bebê";
+            } else if (idade >= 5 && idade <= 7) {
+                categoria = "infantil A";
+            } else if (idade >= 8 && idade <= 10) {
+                categoria = "infantil B";
+            } else if (idade >= 11 && idade <= 13) {
+                categoria = "juvenil A";
+            } else if (idade >= 14 && idade <= 17) {
+                categoria = "juvenil B";
+            } else {
+                categoria = "adulto";
+            }
+
+            Console.WriteLine($"A idade que você digitou se enquadra na categoria: {categoria}");
+        }
     }
 }
