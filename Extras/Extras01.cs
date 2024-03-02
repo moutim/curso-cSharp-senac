@@ -51,5 +51,19 @@ namespace desafios_csharp.Extras
 
             Console.WriteLine($"A idade que você digitou se enquadra na categoria: {categoria}");
         }
+
+        public static void MaiorDeTres() {
+            Console.WriteLine("Digite três números para saber qual o maior deles");
+
+            List<int> numeros = new List<int>();
+
+            for (int i = 0; i < 3; i++)
+            {
+                int numero = int.Parse(Console.ReadLine());
+                numeros.Add(numero);
+            }
+
+            Console.WriteLine($"O maior número é: {numeros.Max()}");
+        }
     }
 }
