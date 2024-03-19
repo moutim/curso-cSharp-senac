@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace desafios_csharp.Desafios
+namespace Desafios_csharp.Desafios
 {
     public class Desafio03
     {
