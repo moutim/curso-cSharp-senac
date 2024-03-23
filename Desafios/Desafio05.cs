@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Desafios_csharp.Desafios
 {
-    class Desafio04 {
+    class Desafio05 {
         public static string Desafio05() {
             int[,] matriz = new int[11, 11];
             int valor = 0;
